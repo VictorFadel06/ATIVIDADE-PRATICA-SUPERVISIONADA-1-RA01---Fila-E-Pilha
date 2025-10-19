@@ -13,6 +13,10 @@ O sistema contém duas estruturas independentes:
 
 ```
 SistemaAtendimento.java
+Node.java
+Pilha.java
+Fila.java
+Elemento.java
 README.md
 ```
 
@@ -86,7 +90,7 @@ java SistemaAtendimento
 
 ---
 
-## Autoria
+## Autores
 
-Trabalho acadêmico desenvolvido para a disciplina de Estrutura de Dados, com o objetivo de demonstrar o uso de **lista encadeada** na implementação de **pilhas** e **filas** em Java, sem utilização de funções ou estruturas prontas.
-# ATIVIDADE-PRATICA-SUPERVISIONADA-1-RA01---Fila-E-Pilha
+- Victor Valerio Fadel
+

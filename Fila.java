@@ -1,5 +1,5 @@
 
-// Implementação da Fila (Atendimento)
+
 class Fila {
     private Node frente = null;
     private Node tras = null;

@@ -1,4 +1,4 @@
-// Implementação da Pilha (Histórico)
+
 class Pilha {
     private Node topo = null;
 

@@ -8,9 +8,7 @@ public class SistemaAtendimento {
         Pilha historico = new Pilha();
         Fila fila = new Fila();
 
-        // --- Carregar dados iniciais automaticamente ---
-
-        // Histórico de solicitações
+        
         historico.adicionar(new Elemento("REQ010", "Consulta técnica", "2024-08-20 15:00"));
         historico.adicionar(new Elemento("REQ009", "Restauração de dados", "2024-08-20 14:30"));
         historico.adicionar(new Elemento("REQ008", "Configuração de rede", "2024-08-20 14:00"));
@@ -22,7 +20,7 @@ public class SistemaAtendimento {
         historico.adicionar(new Elemento("REQ002", "Manutenção preventiva", "2024-08-20 11:00"));
         historico.adicionar(new Elemento("REQ001", "Instalação de software", "2024-08-20 10:30"));
 
-        // Fila de atendimento
+        
         fila.adicionar(new Elemento("CLI001", "Dúvida sobre produto"));
         fila.adicionar(new Elemento("CLI002", "Reclamação de serviço"));
         fila.adicionar(new Elemento("CLI003", "Solicitação de reembolso"));
